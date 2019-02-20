@@ -1,7 +1,7 @@
 // require('/jquery-3.3.1.min.js') 
 // console.log(jQuery)
 var socket = io();
-
+console.log('Connected')
 socket.emit('input',jQuery.deparam(window.location.search))
 
 socket.on('result',function(data){

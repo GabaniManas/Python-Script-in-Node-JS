@@ -149,7 +149,7 @@ io.on('connection',(socket)=>{
 				else
 					console.log(res)
 					// result=res;
-					socket.emit('result',{res,options,image:"./../output.png"}) // 
+					socket.emit('result',{res,options,image:"./output.png"}) // 
 					// var readStream = fs.createReadStream(path.resolve(__dirname+'./output.png'),{
 					// 	encoding:'binary'
 					// }),chunks=[];
