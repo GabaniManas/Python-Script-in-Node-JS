@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myfile</title>
+	<style type="text/css">
+		body {
+  			background-image: url("http://www.adanipower.com/wps/wcm/connect/www.adanipower.com27944/19c66db6-b3b8-4196-b03f-236065030213/Enhancing_Efficiency_1400x560.jpg?MOD=AJPERES&CACHEID=19c66db6-b3b8-4196-b03f-236065030213");
+  			background-repeat: no-repeat;
+  			background-size: cover;
+  			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<!-- <p>Prediction</p> -->
+	<form id="myform" action="/" align="center">
+		<h1>Load Forecasting</h1>
+		<table align="center">
+			<tr>
+				<td><b>Date</b></td>
+				<td><input type="text" id="arg1" name="arg1"><br></td>
+			</tr>
+			<tr>
+				<td><b>Feature Input</b></td>
+				<td><input type="text" id="arg2" name="arg2"><br></td>
+			</tr>
+		</table>
+		<!-- <p id="result"></p> -->
+		<input type="submit" align="center" id="submit" value="Submit" name="submit">
+		<!-- <img id="output" alt="OUTPUT"/> -->
+	</form>
+	<script type="text/javascript" src="/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/deparam.js"></script>
+	<script type="text/javascript" src="/index.js"></script>
+</body>
+</html>
